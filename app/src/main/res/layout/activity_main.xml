@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/text"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="#3E1D70"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="#513D6E"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/divider9"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#513D6E"
+            android:scrollbarSize="10dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/alfa_slab_one"
+            android:text="Quanto fica\npra cada?"
+            android:textAlignment="center"
+            android:textColor="#E4E4E4"
+            android:textSize="34sp" />
+
+        <View
+            android:id="@+id/divider8"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="#513D6E"
+            android:scrollbarSize="10dp" />
+
+        <View
+            android:id="@+id/divider5"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#513D6E"
+            android:scrollbarSize="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/divider12"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#513D6E"
+                android:scrollbarSize="10dp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@mipmap/ic_dinheiro_round" />
+
+            <View
+                android:id="@+id/divider13"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#513D6E"
+                android:scrollbarSize="10dp" />
+
+            <EditText
+                android:id="@+id/edT_oper1"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:backgroundTint="#E4E4E4"
+                android:ems="10"
+                android:hint="10.50"
+                android:importantForAccessibility="yes"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#8A8A8A"
+                android:textSize="24sp" />
+
+            <View
+                android:id="@+id/divider11"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#513D6E"
+                android:scrollbarSize="10dp" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider7"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#513D6E"
+            android:scrollbarSize="10dp" />
+
+        <View
+            android:id="@+id/divider10"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#513D6E"
+            android:scrollbarSize="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#513D6E"
+                android:scrollbarSize="10dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@mipmap/ic_grupo_round" />
+
+            <View
+                android:id="@+id/divider4"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#513D6E"
+                android:scrollbarSize="10dp" />
+
+            <EditText
+                android:id="@+id/edT_oper2"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:backgroundTint="#E4E4E4"
+                android:ems="10"
+                android:hint="2"
+                android:importantForAccessibility="yes"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#8A8A8A"
+                android:textSize="24sp" />
+
+            <View
+                android:id="@+id/divider6"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#513D6E"
+                android:scrollbarSize="10dp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="?android:attr/listDivider"
+            android:backgroundTint="#513D6E"
+            android:scrollbarSize="10dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewOper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:contentDescription="@string/oper1"
+                android:gravity="center_horizontal"
+                android:text="Resultado:"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tV_res"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="@string/res"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider15"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="#513D6E"
+                android:scrollbarSize="10dp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#513D6E"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center|top"
+            android:orientation="horizontal">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/btShare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#DCA817"
+                android:clickable="true"
+                android:contentDescription="Botão de Compartilhar"
+                app:maxImageSize="40dp"
+                app:srcCompat="@mipmap/ic_share_round" />
+
+            <View
+                android:id="@+id/divider19"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#513D6E"
+                android:scrollbarSize="10dp" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/btTts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#DCA817"
+                android:clickable="true"
+                android:contentDescription="Botão para ouvir o valor"
+                app:maxImageSize="40dp"
+                app:srcCompat="@mipmap/ic_tts_round" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Splitter</string>
+    <string name="oper1"></string>
+    <string name="oper2"></string>
+    <string name="res">R$ 0.00</string>
+</resources>
