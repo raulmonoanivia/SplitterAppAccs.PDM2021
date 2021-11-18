@@ -1,6 +1,24 @@
 <resources>
     <string name="app_name">Splitter</string>
-    <string name="oper1"></string>
+    <string name="oper1">Resultado</string>
     <string name="oper2"></string>
     <string name="res">R$ 0.00</string>
+    <string name="share">Compartilhar</string>
+    <string name="tts">Ouvir o valor</string>
+    <string name="group">Insira o número de pessoas no campo ao lado</string>
+    <string name="money">Insira o valor total no campo ao lado</string>
+    <string name="quanto_fica_pra_cada">Quanto fica pra cada?</string>
+    <string name="quanto_fica_npra_cada">Quanto fica\npra cada?</string>
+    <string name="resultado">Resultado:</string>
+    <string name="total">Total</string>
+    <string name="pessoas">Pessoas</string>
+    <string name="activate_tts">"TTS Ativado..."</string>
+    <string name="deactivate_tts">"TTS Desativado..."</string>
+    <string name="ind_value">\"O valor por pessoa é de \"</string>
+    <string name="where_share">Onde você gostaria de compartilhar?</string>
+    <string name="owe">\"Oi, você me deve: \"</string>
+    <string name="has_to_pay">Alguém tem que pagar a conta!</string>
+    <string name="currencyNull">R$ 0.00</string>
+    <string name="currency">R$</string>
+    <string name="zerozerozero">0.00</string>
 </resources>

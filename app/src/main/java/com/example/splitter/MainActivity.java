@@ -87,13 +87,13 @@ public class MainActivity extends AppCompatActivity implements TextWatcher, View
             double res = (op1/op2);
             DecimalFormat df= new DecimalFormat("0.00");
             if (op2==0){
-                tvRes.setText("Alguém tem que pagar a conta");
+                tvRes.setText(R.string.has_to_pay);
             }else{
-                tvRes.setText("R$"+ df.format(res));
+                tvRes.setText(getString(R.string.currency)+" "+ df.format(res));
             }
 
         } catch (Exception e) {
-            tvRes.setText("R$ 0.00");
+            tvRes.setText(getString(R.string.currency)+" "+getString(R.string.zerozerozero));
         }
 
     }
@@ -103,13 +103,13 @@ public class MainActivity extends AppCompatActivity implements TextWatcher, View
         if (view==share){
             Intent intent = new Intent (Intent.ACTION_SEND);
             intent.setType("text/plain");
-            intent.putExtra(android.content.Intent.EXTRA_TEXT, "Oi, você me deve: "+tvRes.getText().toString());
-            startActivity(Intent.createChooser(intent, "Onde você gostaria de compartilhar?"));
+            intent.putExtra(android.content.Intent.EXTRA_TEXT, getString(R.string.owe)+tvRes.getText().toString());
+            startActivity(Intent.createChooser(intent, getString(R.string.where_share)));
         }
 
         if (view==tts){
             if (ttsPlayer!=null){
-                ttsPlayer.speak("O valor por pessoa é de " + tvRes.getText().toString(), TextToSpeech.QUEUE_FLUSH, null, "ID1");
+                ttsPlayer.speak(getString(R.string.ind_value) + tvRes.getText().toString(), TextToSpeech.QUEUE_FLUSH, null, "ID1");
             }
         }
     }
@@ -117,10 +117,10 @@ public class MainActivity extends AppCompatActivity implements TextWatcher, View
     @Override
     public void onInit(int initStatus) {
         if (initStatus == TextToSpeech.SUCCESS){
-            Toast.makeText(this, "TTS Ativado...",
+            Toast.makeText(this, getString(R.string.activate_tts),
                 Toast.LENGTH_LONG).show();}
         else if (initStatus == TextToSpeech.ERROR){
-            Toast.makeText(this, "TTS Desativado...",
+            Toast.makeText(this, getString(R.string.deactivate_tts),
                     Toast.LENGTH_LONG).show();
         }
 

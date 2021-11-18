@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Splitter</string>
+    <string name="oper1">Result</string>
+    <string name="oper2"></string>
+    <string name="res">R$ 0.00</string>
+    <string name="share">Share</string>
+    <string name="tts">Listen to result</string>
+    <string name="group">Write the number of people in the next field</string>
+    <string name="money">Write the total value in the next field</string>
+    <string name="quanto_fica_pra_cada">How much for each?</string>
+    <string name="quanto_fica_npra_cada">How much\nfor each?</string>
+    <string name="resultado">Result:</string>
+    <string name="total">Total</string>
+    <string name="pessoas">People</string>
+    <string name="activate_tts">"TTS Activated..."</string>
+    <string name="deactivate_tts">"TTS Deactivated..."</string>
+    <string name="ind_value">"Each person has to pay "</string>
+    <string name="where_share">Where would you like to share</string>
+    <string name="owe">"Hi, you owe me: "</string>
+    <string name="has_to_pay">Someone has to pay the bill!</string>
+    <string name="currencyNull">$ 0.00</string>
+    <string name="currency">$</string>
+    <string name="zerozerozero">0.00</string>
+</resources>
